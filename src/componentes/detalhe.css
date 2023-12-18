@@ -1,0 +1,56 @@
+/* detalhe.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffc0cb; /* Rosa claro */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+h2 {
+  color: #ff69b4; /* Rosa mais escuro */
+}
+
+.form-label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px; /* Tamanho do rótulo */
+  color: #ff69b4; /* Rosa mais escuro */
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 14px; /* Tamanho do texto de entrada */
+  border: 1px solid #ff69b4; /* Borda rosa mais escura */
+  border-radius: 5px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.d-flex justify-content-between button {
+  width: 15%; /* Reduz a largura dos botões */
+  margin-top: 10px; /* espaço acima dos botões */
+}
+
+.btn-primary {
+  background-color: #ff69b4; 
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #ff1493; 
+  color: #fff;
+}
+
